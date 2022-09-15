@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="NewFolderForMesh" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/NewFolderForMesh" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/NewFolderForMesh" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="BoundaryConditions.cpp" />
+		<Unit filename="BoundaryConditions.hpp" />
+		<Unit filename="BoundaryNode.h" />
+		<Unit filename="BvpOde.cpp" />
+		<Unit filename="BvpOde.hpp" />
+		<Unit filename="DiffusionEqnPDE.hpp" />
+		<Unit filename="FiniteDifferenceGrid.cpp" />
+		<Unit filename="FiniteDifferenceGrid.h" />
+		<Unit filename="InteriorNode.h" />
+		<Unit filename="LinearSystem.cpp" />
+		<Unit filename="LinearSystem.hpp" />
+		<Unit filename="Matrix.cpp" />
+		<Unit filename="Matrix.hpp" />
+		<Unit filename="Node.hpp" />
+		<Unit filename="Vector.cpp" />
+		<Unit filename="Vector.hpp" />
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

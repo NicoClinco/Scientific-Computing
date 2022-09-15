@@ -1,0 +1,115 @@
+# depslib dependency file v1.0
+1663013978 source:c:\users\calei\desktop\cblocksprojects\mesh_grid_quality\newfolderformesh\main.cpp
+	<iostream>
+	"BoundaryNode.h"
+	"FiniteDifferenceGrid.h"
+	"InteriorNode.h"
+	"Node.hpp"
+	<vector>
+
+1663014142 c:\users\calei\desktop\cblocksprojects\mesh_grid_quality\newfolderformesh\boundarynode.h
+	"Node.hpp"
+
+1663014030 c:\users\calei\desktop\cblocksprojects\mesh_grid_quality\newfolderformesh\node.hpp
+
+1663013976 c:\users\calei\desktop\cblocksprojects\mesh_grid_quality\newfolderformesh\finitedifferencegrid.h
+	<vector>
+	<iostream>
+	"Node.hpp"
+	"BoundaryNode.h"
+	"InteriorNode.h"
+
+1663014028 c:\users\calei\desktop\cblocksprojects\mesh_grid_quality\newfolderformesh\interiornode.h
+	"Node.hpp"
+
+1663014188 source:c:\users\calei\desktop\cblocksprojects\mesh_grid_quality\newfolderformesh\finitedifferencegrid.cpp
+	<cassert>
+	"FiniteDifferenceGrid.h"
+	"BoundaryNode.h"
+	"Node.hpp"
+	"InteriorNode.h"
+
+1663147822 source:c:\users\calei\desktop\scientificcomputing\newfolderformesh\boundaryconditions.cpp
+	<cassert>
+	"BoundaryConditions.hpp"
+
+1663147706 c:\users\calei\desktop\scientificcomputing\newfolderformesh\boundaryconditions.hpp
+	<iostream>
+	<vector>
+	"FiniteDifferenceGrid.h"
+
+1663145634 source:c:\users\calei\desktop\scientificcomputing\newfolderformesh\finitedifferencegrid.cpp
+	<cassert>
+	"FiniteDifferenceGrid.h"
+	"BoundaryNode.h"
+	"Node.hpp"
+	"InteriorNode.h"
+
+1663145635 c:\users\calei\desktop\scientificcomputing\newfolderformesh\finitedifferencegrid.h
+	<vector>
+	<iostream>
+	"Node.hpp"
+	"BoundaryNode.h"
+	"InteriorNode.h"
+
+1663147755 c:\users\calei\desktop\scientificcomputing\newfolderformesh\node.hpp
+
+1663078519 c:\users\calei\desktop\scientificcomputing\newfolderformesh\boundarynode.h
+	"Node.hpp"
+
+1663078404 c:\users\calei\desktop\scientificcomputing\newfolderformesh\interiornode.h
+	"Node.hpp"
+
+1663150895 source:c:\users\calei\desktop\scientificcomputing\newfolderformesh\main.cpp
+	<iostream>
+	"BvpOde.hpp"
+	<cmath>
+
+1663080963 source:c:\users\calei\desktop\scientificcomputing\newfolderformesh\linearsystem.cpp
+	<cmath>
+	<cassert>
+	"LinearSystem.hpp"
+	"Matrix.hpp"
+	"Vector.hpp"
+
+1663080934 c:\users\calei\desktop\scientificcomputing\newfolderformesh\linearsystem.hpp
+	"Vector.hpp"
+	"Matrix.hpp"
+
+1663086046 c:\users\calei\desktop\scientificcomputing\newfolderformesh\vector.hpp
+	<iostream>
+	<vector>
+
+1662818900 c:\users\calei\desktop\scientificcomputing\newfolderformesh\matrix.hpp
+	"Vector.hpp"
+
+1663076548 source:c:\users\calei\desktop\scientificcomputing\newfolderformesh\matrix.cpp
+	<cmath>
+	<cassert>
+	"Matrix.hpp"
+	"Vector.hpp"
+
+1663079491 source:c:\users\calei\desktop\scientificcomputing\newfolderformesh\vector.cpp
+	<cmath>
+	<iostream>
+	<cassert>
+	"Vector.hpp"
+	<vector>
+
+1663148863 source:c:\users\calei\desktop\scientificcomputing\newfolderformesh\bvpode.cpp
+	<iostream>
+	<fstream>
+	<cassert>
+	"BvpOde.hpp"
+
+1663148459 c:\users\calei\desktop\scientificcomputing\newfolderformesh\bvpode.hpp
+	<string>
+	"Matrix.hpp"
+	"Vector.hpp"
+	"LinearSystem.hpp"
+	"FiniteDifferenceGrid.h"
+	"DiffusionEqnPDE.hpp"
+	"BoundaryConditions.hpp"
+
+1663079503 c:\users\calei\desktop\scientificcomputing\newfolderformesh\diffusioneqnpde.hpp
+
